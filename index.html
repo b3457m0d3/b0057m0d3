@@ -1,0 +1,267 @@
+<!doctype html>
+		<!--
+		  Material Design Lite Copyright 2015 Google Inc. All rights reserved.
+      b3457m0d3s 54ndb0x
+
+		-->
+		<html lang="en">
+		  <head>
+		    <meta charset="utf-8">
+		    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		    <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
+		    <meta name="viewport" content="width=device-width, initial-scale=1">
+		    <title>Material Design Lite</title>
+
+		    <!-- Add to homescreen for Chrome on Android -->
+		    <meta name="mobile-web-app-capable" content="yes">
+		    <link rel="icon" sizes="192x192" href="images/touch/chrome-touch-icon-192x192.png">
+
+		    <!-- Add to homescreen for Safari on iOS -->
+		    <meta name="apple-mobile-web-app-capable" content="yes">
+		    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+		    <meta name="apple-mobile-web-app-title" content="Material Design Lite">
+		    <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">
+
+		    <!-- Tile icon for Win8 (144x144 + tile color) -->
+		    <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+		    <meta name="msapplication-TileColor" content="#3372DF">
+
+		    <!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
+		    <!--
+		    <link rel="canonical" href="http://www.example.com/">
+		    -->
+
+		    <link href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en" rel="stylesheet">
+		    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+				<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+				<link rel="stylesheet" href="material.css"> <!--href="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.light_blue-blue.min.css" />-->
+				<link rel="stylesheet" href="styles.css">
+				<style>
+				.mdl-template .mdl-layout__header-row .mdl-navigation__link:last-of-type  { padding-right: 0; }
+				/* skill card */
+				.mdl-skill-card {width: 75%;height: 75%;background: #eee;}
+				.mdl-skill-card__actions {border-color: rgba(255, 255, 255, 0.2);display: flex;box-sizing:border-box;align-items: center;}
+				.mdl-skill-card__title {align-items: flex-start;}
+				.mdl-skill-card__title > h4 {margin-top: 0;}
+				.mdl-skill-card__title,.mdl-skill-card__actions,.mdl-skill-card__actions > .mdl-button {color: #fff;}
+				</style>
+				<script src="js/modernizr.custom.js"></script>
+		  </head>
+		  <body>
+	    	<div class="mdl-template mdl-layout mdl-js-layout is-upgraded">
+					<header class="mdl-layout__header mdl-layout__header--waterfall">
+				    <div class="mdl-layout__header-row">
+				      <span class="mdl-layout-title">Title</span>
+				      <div class="mdl-layout-spacer"></div>
+				      <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right">
+				        <label class="mdl-button mdl-js-button mdl-button--icon" for="waterfall-exp">
+				          <i class="material-icons">search</i>
+				        </label>
+				        <div class="mdl-textfield__expandable-holder">
+				          <input class="mdl-textfield__input" type="text" name="sample" id="waterfall-exp" />
+				        </div>
+				      </div>
+				    </div>
+						<div class="mdl-layout__header-row">
+				      <span class="mdl-layout-title">Title</span>
+				      <div class="mdl-layout-spacer"></div>
+				      <nav class="mdl-navigation mdl-layout--large-screen-only">
+				        <a class="mdl-navigation__link" href="">Link</a>
+				      </nav>
+				    </div>
+				  </header>
+					<div class="mdl-layout__drawer">
+						<button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="hdrbtn">
+							<i class="material-icons">more_vert</i>
+						</button>
+						<ul class="mdl-menu mdl-js-menu mdl-js-ripple-effect mdl-menu--bottom-left" for="hdrbtn">
+							<li class="mdl-menu__item">About</li>
+							<li class="mdl-menu__item">Contact</li>
+							<li class="mdl-menu__item">Legal information</li>
+						</ul>
+				    <span class="mdl-layout-title">Title</span>
+				    <nav class="mdl-navigation">
+				      <a class="mdl-navigation__link" href="">Link</a>
+				      <a class="mdl-navigation__link" href="">Link</a>
+				      <a class="mdl-navigation__link" href="">Link</a>
+				      <a class="mdl-navigation__link" href="">Link</a>
+				    </nav>
+				  </div>
+		      <main class="mdl-layout__content">
+						<div class="mdl-grid">
+  						<div class="mdl-cell mdl-cell--6-col mdl-cell--8-col-phone">
+								<div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect">
+								  <div class="mdl-tabs__tab-bar">
+								      <a href="#first-panel" class="mdl-tabs__tab is-active">First</a>
+								      <a href="#second-panel" class="mdl-tabs__tab">Second</a>
+								      <a href="#third-panel" class="mdl-tabs__tab">Third</a>
+								  </div>
+								  <div class="mdl-tabs__panel is-active" id="first-panel">
+										<div class="mdl-grid">
+											<div class="mdl-cell mdl-cell--6-col">
+											  <div class="mdl-spinner mdl-js-spinner is-active"></div>
+											</div>
+					  					<div class="mdl-cell mdl-cell--6-col">
+											  <span class="material-icons mdl-badge" data-badge="♥">account_box</span>
+											</div>
+										</div>
+									</div>
+								  <div class="mdl-tabs__panel" id="second-panel"><ul>
+									</div>
+								  <div class="mdl-tabs__panel" id="third-panel">
+										<table class="mdl-data-table mdl-js-data-table mdl-data-table--selectable mdl-shadow--2dp">
+											<thead>
+												<tr>
+													<th class="mdl-data-table__cell--non-numeric">Material</th>
+													<th>Quantity</th>
+													<th>Unit price</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td class="mdl-data-table__cell--non-numeric">Acrylic (Transparent)</td>
+													<td>25</td>
+													<td>$2.90</td>
+												</tr>
+												<tr>
+													<td class="mdl-data-table__cell--non-numeric">Plywood (Birch)</td>
+													<td>50</td>
+													<td>$1.25</td>
+												</tr>
+												<tr>
+													<td class="mdl-data-table__cell--non-numeric">Laminate (Gold on Blue)</td>
+													<td>10</td>
+													<td>$2.35</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
+							</div>
+							<div class="mdl-cell mdl-cell--12-col"></div>
+							<!-- Skill Cards -->
+		          <div class="mdl-cell mdl-cell--2-col">
+								<div class="mdl-card mdl-skill-card mdl-shadow--2dp">
+								  <div class="mdl-card__title">Boom</div>
+								  <div class="mdl-card__media"></div>
+								  <div class="mdl-card__supporting-text">Whammy... & all that jazz</div>
+								  <div class="mdl-card__actions"></div>
+								</div>
+							</div>
+							<div class="mdl-cell mdl-cell--2-col">
+								<div class="mdl-card mdl-skill-card mdl-shadow--2dp">
+								  <div class="mdl-card__title">Boom</div>
+								  <div class="mdl-card__media"></div>
+								  <div class="mdl-card__supporting-text">Whammy... & all that jazz</div>
+								  <div class="mdl-card__actions"></div>
+								</div>
+							</div>
+							<div class="mdl-cell mdl-cell--2-col">
+								<div class="mdl-card mdl-skill-card mdl-shadow--2dp">
+								  <div class="mdl-card__title">Boom</div>
+								  <div class="mdl-card__media"></div>
+								  <div class="mdl-card__supporting-text">Whammy... & all that jazz</div>
+								  <div class="mdl-card__actions"></div>
+								</div>
+							</div>
+							<div class="mdl-cell mdl-cell--2-col">
+								<div class="mdl-card mdl-skill-card mdl-shadow--2dp">
+								  <div class="mdl-card__title">Boom</div>
+								  <div class="mdl-card__media"></div>
+								  <div class="mdl-card__supporting-text">Whammy... & all that jazz</div>
+								  <div class="mdl-card__actions"></div>
+								</div>
+							</div>
+							<div class="mdl-cell mdl-cell--2-col">
+								<div class="mdl-card mdl-skill-card mdl-shadow--2dp">
+								  <div class="mdl-card__title">Boom</div>
+								  <div class="mdl-card__media"></div>
+								  <div class="mdl-card__supporting-text">Whammy... & all that jazz</div>
+								  <div class="mdl-card__actions"></div>
+								</div>
+							</div>
+							<div class="mdl-cell mdl-cell--2-col">
+								<div class="mdl-card mdl-skill-card mdl-shadow--2dp">
+									<div class="mdl-skill-card__title mdl-card--expand">
+									 <h4>
+										 Featured event:<br>
+										 May 24, 2016<br>
+										 7-11pm
+									 </h4>
+								 </div>
+								 <div class="mdl-card__actions mdl-card--border">
+									 <div class="mdl-layout-spacer"></div>
+									 <a data-target="modal-1" class="mdl-button mdl-modal__trigger mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+										 boom <i class="material-icons">event</i>
+									 </a>
+								 </div>
+								</div>
+							</div>
+		        </div>
+		        <footer class="mdl-mini-footer">
+		          <div class="mdl-mini-footer--left-section">
+		            <button class="mdl-mini-footer--social-btn social-btn social-btn__twitter">
+		              <span class="visuallyhidden">Twitter</span>
+		            </button>
+		            <button class="mdl-mini-footer--social-btn social-btn social-btn__blogger">
+		              <span class="visuallyhidden">Facebook</span>
+		            </button>
+		            <button class="mdl-mini-footer--social-btn social-btn social-btn__gplus">
+		              <span class="visuallyhidden">Google Plus</span>
+		            </button>
+		          </div>
+		          <div class="mdl-mini-footer--right-section">
+		            <button class="mdl-mini-footer--social-btn social-btn__share">
+		              <i class="material-icons" role="presentation">share</i>
+		              <span class="visuallyhidden">share</span>
+		            </button>
+		          </div>
+		        </footer>
+		      </main>
+		      <div class="mdl-layout__obfuscator"></div>
+		    </div>
+				<div class="mdl-modal c-c" id="modal-1">
+					<div class="mdl-modal__header">
+						<h3>boom</h3>
+					</div>
+					<div class="mdl-modal__body">
+						<div>
+							<p>some text!!</p>
+						</div>
+					</div>
+					<div class="mdl-modal__footer">
+						<button class="mdl-modal__close mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect">Close me!</button>
+					</div>
+				</div>
+				<div class="mdl-overlay"></div><!-- the overlay element -->
+				<script data-main="js/init" src="js/require.js"></script>
+
+		  </body>
+		  <script>
+		    Array.prototype.forEach.call(document.querySelectorAll('.mdl-card__media'), function(el) {
+		      var link = el.querySelector('a');
+		      if(!link) {
+		        return;
+		      }
+		      var target = link.getAttribute('href');
+		      if(!target) {
+		        return;
+		      }
+		      el.addEventListener('click', function() {
+		        location.href = target;
+		      });
+		    });
+
+				$(function(){
+
+					/*$(".mdl-modal__trigger").on("click",function(){
+						var $overlay = $(".mdl-overlay");
+						var $modal = $("#"+$(this).data('target'));
+						$overlay.on("click")
+						//bring up the overlay
+						$overlay.velocity({ opacity: 1 }, { visibility: "visible" });
+
+					});*/
+				});
+		  </script>
+		</html>
